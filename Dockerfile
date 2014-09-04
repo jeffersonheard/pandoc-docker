@@ -13,6 +13,7 @@ RUN mkdir -p /host
 WORKDIR /host
 
 # show how we built it
-ADD Dockerfile /
+WORKDIR /src
+ADD . /src
 
-CMD pandoc.sh
+CMD /src/pandoc.sh
