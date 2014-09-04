@@ -16,4 +16,4 @@ WORKDIR /host
 WORKDIR /src
 ADD . /src
 
-CMD /src/pandoc.sh
+CMD env
