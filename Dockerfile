@@ -16,4 +16,4 @@ WORKDIR /host
 # show how we built it
 ADD Dockerfile /
 
-ENTRYPOINT ["pandoc"]
+CMD pandoc.sh
