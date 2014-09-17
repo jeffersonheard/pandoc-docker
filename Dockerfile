@@ -6,7 +6,7 @@ MAINTAINER Jefferson Heard
 RUN apt-get update
 
 # install pandoc
-RUN sudo apt-get -y install pandoc
+RUN sudo apt-get -y install pandoc curl
 
 # mount point
 RUN mkdir -p /host
